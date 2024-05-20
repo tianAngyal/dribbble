@@ -1,0 +1,70 @@
+//Media Queries Manager
+/*
+
+phone = 0 - 600px
+tablet-portrait = 600 - 1200px
+pc-regular = 1200 - 1800px
+pc-big >= 1800px
+
+*/
+
+// @mixin mediaQueries($device) {
+//   @if $device == phone {
+//     @media (max-width: 600px) {
+//       @content;
+//     }
+//   }
+//   @if $device == tablet-portrait {
+//     @media (max-width: 1200px) {
+//       @content;
+//     }
+//   }
+//   @if $device == pc-regular {
+//     @media (max-width: 1800px) {
+//       @content;
+//     }
+//   }
+//   @if $device == pc-big {
+//     @media (min-width: 1800px) {
+//       @content;
+//     }
+//   }
+// }
+
+@mixin mediaQueries($device) {
+  @if ($device == 420) {
+    @media (max-width: 420px) {
+      @content;
+    }
+  }
+  @if ($device == 620) {
+    @media (max-width: 620px) {
+      @content;
+    }
+  }
+  @if ($device == 750) {
+    @media (max-width: 750px) {
+      @content;
+    }
+  }
+  @if ($device == 950) {
+    @media (max-width: 950px) {
+      @content;
+    }
+  }
+  @if ($device == 1050) {
+    @media (max-width: 1050px) {
+      @content;
+    }
+  }
+  @if ($device == 1333) {
+    @media (max-width: 1333px) {
+      @content;
+    }
+  }
+  @if ($device == 1440) {
+    @media (max-width: 1400px) {
+      @content;
+    }
+  }
+}

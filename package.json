@@ -1,0 +1,16 @@
+{
+  "name": "dribbble_16-5-2024",
+  "version": "1.0.0",
+  "description": "Dribbble Redesign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Chris",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.1.0",
+    "node-sass": "^9.0.0"
+  }
+}
