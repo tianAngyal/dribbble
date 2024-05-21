@@ -265,3 +265,19 @@
 .fixed {
   position: fixed;
 }
+
+.logo-element {
+  background-image: url();
+}
+
+// .fa-chevron-down:hover {
+//   transform: rotate(180deg);
+// }
+
+.chevron_down_2 {
+  transition: transform 0.5s linear;
+}
+
+.header-nav-ul li:has(.header-nav-dropdownlist--02):hover .chevron_down_2 {
+  transform: rotate(-180deg);
+}

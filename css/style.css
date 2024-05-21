@@ -269,6 +269,15 @@ li:has(.header-nav-dropdownlist--02):hover
 .fixed {
   position: fixed; }
 
+.logo-element {
+  background-image: url(); }
+
+.chevron_down_2 {
+  transition: transform 0.5s linear; }
+
+.header-nav-ul li:has(.header-nav-dropdownlist--02):hover .chevron_down_2 {
+  transform: rotate(-180deg); }
+
 .body {
   padding: 0 1.5rem;
   overflow-x: hidden; }
@@ -346,7 +355,13 @@ li:has(.header-nav-dropdownlist--02):hover
   align-items: center;
   font-size: 5rem;
   transform: translateX(0);
-  transition: all 1s ease; }
+  transition: all 1s ease;
+  overflow: hidden;
+  border-radius: 2rem; }
+
+.imgMeasurement {
+  max-width: 100%;
+  height: auto; }
 
 .title_section {
   text-align: center;
